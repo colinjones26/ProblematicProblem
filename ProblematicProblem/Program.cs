@@ -105,7 +105,7 @@ namespace ProblematicProblem
                     randomActivity = activities[randomNumber];
                 }
 
-                Console.Write($"Ah got it! {randomActivity}, your random activity is: {userName}! Is this ok or do you want to grab another activity? Keep/Redo: ");
+                Console.Write($"Ah got it! Your random activity is: {randomActivity}! {userName}, is this okay or do you want to grab another activity? Keep/Redo: ");
                 string redoChoice = Console.ReadLine().ToLower();
 
                 if (redoChoice != "keep")
